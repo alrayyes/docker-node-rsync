@@ -1,3 +1,3 @@
-# docker-node-rsync
+# docker-node-deploy
 
-Just the [official node container](https://hub.docker.com/_/node/) with added rsync support.
+Just the [official node container (LTS version 6.10.*)](https://hub.docker.com/_/node/) with added rsync and lftp support.
