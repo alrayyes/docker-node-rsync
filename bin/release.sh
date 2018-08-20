@@ -11,7 +11,7 @@ docker run --rm -v "$PWD":/app thinkcompany/docker-node-deploy patch
 version=`cat VERSION`
 echo "version: $version"
 # run build
-./build.sh
+./bin/build.sh
 # tag it
 git add -A
 git commit -m "version $version"
